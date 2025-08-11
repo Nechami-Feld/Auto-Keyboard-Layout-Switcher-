@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Keyboard Layout Switcher - Context Menu",
+  "version": "1.0",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
